@@ -10,7 +10,7 @@ function callJoke() {
     fetch(baseURL)
         .then((response) => response.json())
         .then((data) => {
-            // console.log(data);
+            console.log(data);
             randomJoke(data);
         })
 }
